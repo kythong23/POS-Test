@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>POS - Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
+    <meta content="Coderthemes" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="http://z2.bms79.com/ubold/assets/images/favicon.ico">
+    <!-- App css -->
+    <link href="http://z2.bms79.com/ubold/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"
+        id="bs-default-stylesheet">
+    <link href="http://z2.bms79.com/ubold/assets/css/app.min.css" rel="stylesheet" type="text/css"
+        id="app-default-stylesheet">
+    <link rel="stylesheet" href="../css/table.css" type="text/css">
+    <link href="http://z2.bms79.com/ubold/assets/css/bootstrap-dark.min.css" rel="stylesheet" type="text/css"
+        id="bs-dark-stylesheet" disabled="disabled">
+    <link href="http://z2.bms79.com/ubold/assets/css/app-dark.min.css" rel="stylesheet" type="text/css"
+        id="app-dark-stylesheet" disabled="disabled">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="http://z2.bms79.com/ubold/assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <!-- JSON,JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="../js/showtable.js"></script>
+
+<body>
+    <div class="content" style="height: 100vh;display: flex;flex-flow: column;justify-content: space-between;">
+        <div id="tablecategory">
+            <button class="btn btn-soft-blue btn-lg waves-effect waves-light tablecate"
+                style="margin-left: 10px;background-color: #4a81d4;color: white;"><div style="width: 115px;">Tất cả/ All</div></button>
+        </div>
+        <div id="wraptable" style="min-height: 78vh;"></div>
+        <div class="row" style="margin-left: 10px;display: flex;align-items: center;width: 100%;">
+            <div class="col-8" style="display: flex;align-items: center;">
+                <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting">
+                    <i class="fa-solid fa-folder-open"></i> Mở bàn <br> New
+                </button>
+                <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting payment">
+                    <i class="fa-solid fa-money-bill"></i> Tính tiền <br> Payment
+                </button>
+                <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting">
+                    <i class="fa-solid fa-sliders"></i> Tùy chọn <br> Options
+                </button>
+                <span id="role">Administrator</span>
+                <div id="reportmenu" style="position: relative;">
+                    <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting report">Báo cáo</button>
+                </div>
+                <div id="quantrimenu" style="position: relative;">
+                    <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting quantri">Quản trị</button>
+                </div>
+            </div>
+            <div class="col-4" style="display: flex;justify-content: end;">
+                <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting">Cài đặt <br> Config</button>
+                <button class="btn btn-soft-blue btn-lg waves-effect waves-light setting">
+                    <i class="fa-solid fa-power-off"></i> Log off</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.setting{
+    margin: 10px;
+    min-height: 70px    ;
+}
+#role{
+    border: 2px solid black;
+    display: inline-flex;
+    width: 120px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.loginform{
+    margin: 10px;
+}
+.loginlabel{
+    display: inline-block;
+    min-width: 140px;
+    font-size: 19px;
+}.containerlogin{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 100px;
+}
+.tabledetail:focus{
+    color: #fff;
+    background-color: #6c757d;
+}
+.tablecate:focus{
+    color: #fff;
+    background-color: #4a81d4;
+}
+.bodyPay tbody tr:hover{
+    background-color: lightblue;
+}
+.bodyPay tbody tr:focus{
+    background-color: lightblue;
+}
+.table>:not(caption)>*>* {
+    background-color: unset !important;
+}

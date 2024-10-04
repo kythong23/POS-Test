@@ -1,0 +1,561 @@
+{
+    "Quầy chờ": [
+        {
+            "id": "TO1",
+            "name": "TO1",
+            "status": 1
+        },
+        {
+            "id": "TO2",
+            "name": "TO2",
+            "status": 2
+        },
+        {
+            "id": "TO3",
+            "name": "TO3",
+            "status": 3
+        },
+        {
+            "id": "TO4",
+            "name": "TO4",
+            "status": 0
+        },
+        {
+            "id": "TO5",
+            "name": "TO5",
+            "status": 0
+        },
+        {
+            "id": "TO6",
+            "name": "TO6",
+            "status": 0
+        },
+        {
+            "id": "TO7",
+            "name": "TO7",
+            "status": 0
+        },
+        {
+            "id": "TO8",
+            "name": "TO8",
+            "status": 0
+        },
+        {
+            "id": "TO9",
+            "name": "TO9",
+            "status": 0
+        },
+        {
+            "id": "TO10",
+            "name": "TO10",
+            "status": 0
+        },
+        {
+            "id": "TO11",
+            "name": "TO11",
+            "status": 0
+        },
+        {
+            "id": "TO12",
+            "name": "TO12",
+            "status": 0
+        },
+        {
+            "id": "TO13",
+            "name": "TO13",
+            "status": 0
+        },
+        {
+            "id": "TO14",
+            "name": "TO14",
+            "status": 0
+        },
+        {
+            "id": "TO15",
+            "name": "TO15",
+            "status": 0
+        }
+    ],
+    "Khu A": [
+        {
+            "id": "A1",
+            "name": "A1",
+            "status": 0
+        },
+        {
+            "id": "A2",
+            "name": "A2",
+            "status": 0
+        },
+        {
+            "id": "A3",
+            "name": "A3",
+            "status": 0
+        },
+        {
+            "id": "A4",
+            "name": "A4",
+            "status": 0
+        },
+        {
+            "id": "A5",
+            "name": "A5",
+            "status": 0
+        },
+        {
+            "id": "A6",
+            "name": "A6",
+            "status": 0
+        },
+        {
+            "id": "A7",
+            "name": "A7",
+            "status": 0
+        },
+        {
+            "id": "A8",
+            "name": "A8",
+            "status": 0
+        },
+        {
+            "id": "A9",
+            "name": "A9",
+            "status": 0
+        },
+        {
+            "id": "A10",
+            "name": "A10",
+            "status": 0
+        },
+        {
+            "id": "A11",
+            "name": "A11",
+            "status": 0
+        },
+        {
+            "id": "A12",
+            "name": "A12",
+            "status": 0
+        },
+        {
+            "id": "A13",
+            "name": "A13",
+            "status": 0
+        },
+        {
+            "id": "A14",
+            "name": "A14",
+            "status": 0
+        },
+        {
+            "id": "A15",
+            "name": "A15",
+            "status": 0
+        },
+        {
+            "id": "A16",
+            "name": "A16",
+            "status": 0
+        },
+        {
+            "id": "A17",
+            "name": "A17",
+            "status": 0
+        },
+        {
+            "id": "A18",
+            "name": "A18",
+            "status": 0
+        },
+        {
+            "id": "A19",
+            "name": "A19",
+            "status": 0
+        },
+        {
+            "id": "A20",
+            "name": "A20",
+            "status": 0
+        }
+    ],
+    "Khu B": [
+        {
+            "id": "B1",
+            "name": "B1",
+            "status": 0
+        },
+        {
+            "id": "B2",
+            "name": "B2",
+            "status": 0
+        },
+        {
+            "id": "B3",
+            "name": "B3",
+            "status": 0
+        },
+        {
+            "id": "B4",
+            "name": "B4",
+            "status": 0
+        },
+        {
+            "id": "B5",
+            "name": "B5",
+            "status": 0
+        },
+        {
+            "id": "B6",
+            "name": "B6",
+            "status": 0
+        },
+        {
+            "id": "B7",
+            "name": "B7",
+            "status": 0
+        },
+        {
+            "id": "B8",
+            "name": "B8",
+            "status": 0
+        },
+        {
+            "id": "B9",
+            "name": "B9",
+            "status": 0
+        },
+        {
+            "id": "B10",
+            "name": "B10",
+            "status": 0
+        },
+        {
+            "id": "B11",
+            "name": "B11",
+            "status": 0
+        },
+        {
+            "id": "B12",
+            "name": "B12",
+            "status": 0
+        },
+        {
+            "id": "B13",
+            "name": "B13",
+            "status": 0
+        },
+        {
+            "id": "B14",
+            "name": "B14",
+            "status": 0
+        },
+        {
+            "id": "B15",
+            "name": "B15",
+            "status": 0
+        },
+        {
+            "id": "B16",
+            "name": "B16",
+            "status": 0
+        },
+        {
+            "id": "B17",
+            "name": "B17",
+            "status": 0
+        },
+        {
+            "id": "B18",
+            "name": "B18",
+            "status": 0
+        },
+        {
+            "id": "B19",
+            "name": "B19",
+            "status": 0
+        },
+        {
+            "id": "B20",
+            "name": "B20",
+            "status": 0
+        }
+    ],
+    "Khu C": [
+        {
+            "id": "C1",
+            "name": "C1",
+            "status": 0
+        },
+        {
+            "id": "C2",
+            "name": "C2",
+            "status": 0
+        },
+        {
+            "id": "C3",
+            "name": "C3",
+            "status": 0
+        },
+        {
+            "id": "C4",
+            "name": "C4",
+            "status": 0
+        },
+        {
+            "id": "C5",
+            "name": "C5",
+            "status": 0
+        },
+        {
+            "id": "C6",
+            "name": "C6",
+            "status": 0
+        },
+        {
+            "id": "C7",
+            "name": "C7",
+            "status": 0
+        },
+        {
+            "id": "C8",
+            "name": "C8",
+            "status": 0
+        },
+        {
+            "id": "C9",
+            "name": "C9",
+            "status": 0
+        },
+        {
+            "id": "C10",
+            "name": "C10",
+            "status": 0
+        },
+        {
+            "id": "C11",
+            "name": "C11",
+            "status": 0
+        },
+        {
+            "id": "C12",
+            "name": "C12",
+            "status": 0
+        },
+        {
+            "id": "C13",
+            "name": "C13",
+            "status": 0
+        },
+        {
+            "id": "C14",
+            "name": "C14",
+            "status": 0
+        },
+        {
+            "id": "C15",
+            "name": "C15",
+            "status": 0
+        },
+        {
+            "id": "C16",
+            "name": "C16",
+            "status": 0
+        },
+        {
+            "id": "C17",
+            "name": "C17",
+            "status": 0
+        },
+        {
+            "id": "C18",
+            "name": "C18",
+            "status": 0
+        },
+        {
+            "id": "C19",
+            "name": "C19",
+            "status": 0
+        },
+        {
+            "id": "C20",
+            "name": "C20",
+            "status": 0
+        }
+    ],
+    "Khu VIP": [
+        {
+            "id": "VIP 1",
+            "name": "VIP 1",
+            "status": 0
+        },
+        {
+            "id": "VIP 2",
+            "name": "VIP 2",
+            "status": 0
+        },
+        {
+            "id": "VIP 3",
+            "name": "VIP 3",
+            "status": 0
+        },
+        {
+            "id": "VIP 4",
+            "name": "VIP 4",
+            "status": 0
+        },
+        {
+            "id": "VIP 5",
+            "name": "VIP 5",
+            "status": 0
+        },
+        {
+            "id": "VIP 6",
+            "name": "VIP 6",
+            "status": 0
+        },
+        {
+            "id": "VIP 7",
+            "name": "VIP 7",
+            "status": 0
+        },
+        {
+            "id": "VIP 8",
+            "name": "VIP 8",
+            "status": 0
+        },
+        {
+            "id": "VIP 9",
+            "name": "VIP 9",
+            "status": 0
+        },
+        {
+            "id": "VIP 10",
+            "name": "VIP 10",
+            "status": 0
+        },
+        {
+            "id": "SEAVIEW",
+            "name": "SEAVIEW",
+            "status": 0
+        },
+        {
+            "id": "LUXURY",
+            "name": "LUXURY",
+            "status": 0
+        },
+        {
+            "id": "OCEANVIEW",
+            "name": "OCEANVIEW",
+            "status": 0
+        },
+        {
+            "id": "EXCUTIVE",
+            "name": "EXCUTIVE",
+            "status": 0
+        }
+    ],
+    "Tầng 1-Khu A": [
+        {
+            "id": "T1-A1",
+            "name": "T1-A1",
+            "status": 0
+        },
+        {
+            "id": "T1-A2",
+            "name": "T1-A2",
+            "status": 0
+        },
+        {
+            "id": "T1-A3",
+            "name": "T1-A3",
+            "status": 0
+        },
+        {
+            "id": "T1-A4",
+            "name": "T1-A4",
+            "status": 0
+        },
+        {
+            "id": "T1-A5",
+            "name": "T1-A5",
+            "status": 0
+        },
+        {
+            "id": "T1-A6",
+            "name": "T1-A6",
+            "status": 0
+        },
+        {
+            "id": "T1-A7",
+            "name": "T1-A7",
+            "status": 0
+        },
+        {
+            "id": "T1-A8",
+            "name": "T1-A8",
+            "status": 0
+        },
+        {
+            "id": "T1-A9",
+            "name": "T1-A9",
+            "status": 0
+        },
+        {
+            "id": "T1-A10",
+            "name": "T1-A10",
+            "status": 0
+        }
+    ],
+    "Tầng 1-Khu B": [
+        {
+            "id": "T1-B1",
+            "name": "T1-B1",
+            "status": 0
+        },
+        {
+            "id": "T1-B2",
+            "name": "T1-B2",
+            "status": 0
+        },
+        {
+            "id": "T1-B3",
+            "name": "T1-B3",
+            "status": 0
+        },
+        {
+            "id": "T1-B4",
+            "name": "T1-B4",
+            "status": 0
+        },
+        {
+            "id": "T1-B5",
+            "name": "T1-B5",
+            "status": 0
+        },
+        {
+            "id": "T1-B6",
+            "name": "T1-B6",
+            "status": 0
+        },
+        {
+            "id": "T1-B7",
+            "name": "T1-B7",
+            "status": 0
+        },
+        {
+            "id": "T1-B8",
+            "name": "T1-B8",
+            "status": 0
+        },
+        {
+            "id": "T1-B9",
+            "name": "T1-B9",
+            "status": 0
+        },
+        {
+            "id": "T1-B10",
+            "name": "T1-B10",
+            "status": 0
+        }
+    ]
+}
