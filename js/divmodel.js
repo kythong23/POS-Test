@@ -120,7 +120,24 @@ export function noSearchResult(){
     $(`.noSearchResult`).html(nors);
 }
 export function addPay(tableData,tableHistory,amount,total,discount) { 
-    let serviceFee = Math.round(total*5/100);
+    let totalwithdis= 0 ;
+            $.each(tableHistory, function (indexInArray, valueOfElement) { 
+                $.each(valueOfElement, function (indexInArray, valueOfElement) { 
+                   $.each(valueOfElement, function (indexInArray, valueOfElement) { 
+                       if(valueOfElement.amount!=0){
+                        let dis=parseInt(valueOfElement.amount,10)*parseInt(valueOfElement.price,10);
+                        if(discount!='' && discount!= undefined){
+                            dis = dis+dis*discount/100;
+                            totalwithdis +=Math.round(dis);
+                        }
+                        else{
+                            totalwithdis = total;
+                        }
+                       }
+                   });
+                });
+           });
+    let serviceFee = Math.round(totalwithdis*5/100);
     let content = `<div id="presentation" class="MuiDialog-root" style="position: fixed; z-index: 1300; inset: 0px;">
                 <div class="MuiBackdrop-root" aria-hidden="true"
                 style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
@@ -179,14 +196,14 @@ export function addPay(tableData,tableHistory,amount,total,discount) {
                                     </div>
                                     <div>
                                         <div style="margin-top:10px;display: flex;justify-content: space-between;">Tiền hàng/ Amount: <input value=${new Intl.NumberFormat('ja-JP').format(//Format tiền (100000 -> 100,000)
-                                            total,
+                                            totalwithdis,
                                             )},000></div>
                                         <div style="margin-top:10px;display: flex;justify-content: space-between;">Chiết khấu/ Discount: <input value="0"></div>
                                         <div style="margin-top:10px;display: flex;justify-content: space-between;">Phí phục vụ/ Service fee (5% of Amount): <input value=${new Intl.NumberFormat('ja-JP').format(//Format tiền (100000 -> 100,000)
                                             serviceFee,
                                             )},000></div>
                                         <div style="margin-top:10px;display: flex;justify-content: space-between;">Tổng cộng/ Total: <input value=${new Intl.NumberFormat('ja-JP').format(//Format tiền (100000 -> 100,000)
-                                            total+serviceFee,
+                                            totalwithdis+serviceFee,
                                             )},000></div>
                                         <div style="margin-top:10px;display:flex;justify-content:space-between">
                                             Khách trả tiền mặt/ Note: <input style="width: 50%;" value="0">
@@ -230,7 +247,6 @@ export function addPay(tableData,tableHistory,amount,total,discount) {
                 </div>
             </div>  `;
             $("#__next").append(content);
-            let totalwithdis= 0 ;
             $.each(tableHistory, function (indexInArray, valueOfElement) { 
                 $.each(valueOfElement, function (indexInArray, valueOfElement) { 
                    $.each(valueOfElement, function (indexInArray, valueOfElement) { 
@@ -238,11 +254,7 @@ export function addPay(tableData,tableHistory,amount,total,discount) {
                         let dis=parseInt(valueOfElement.amount,10)*parseInt(valueOfElement.price,10);
                         if(discount!='' && discount!= undefined){
                             dis = dis+dis*discount/100;
-                            totalwithdis +=Math.round(dis);
-                        }
-                        else{
-                            totalwithdis = total;
-                        }
+                        } 
                            let content = `<tr class="payDetail" style="cursor:pointer" tabindex="0">
                            <td style="font-weight:500;width:45%">${valueOfElement.name}</td>
                            <td style="font-weight:500; width: 15%">${valueOfElement.amount}</td>
@@ -328,7 +340,7 @@ export function inputVoid(){
                                 </div>
                                 <div style="display: flex;justify-content: space-evenly;">
                                     <button type="button" class="btn btn-blue btn-lg waves-effect waves-light voidBtn"><i class="fa-solid fa-check"></i> Trả món</button>
-                                    <button type="button" class="btn btn-blue btn-lg waves-effect waves-light voidBtn"><i class="fa-solid fa-ban"></i> Quay lại</button>
+                                    <button type="button" class="btn btn-blue btn-lg waves-effect waves-light voidBackBtn"><i class="fa-solid fa-ban"></i> Quay lại</button>
                                 </div>
                             </div>
                         </div>

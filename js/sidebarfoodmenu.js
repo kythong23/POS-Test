@@ -432,7 +432,10 @@ $(document).on('click',`.deletebtn`, function () {
         inputVoid();
     });
     $(document).on('click','.payDetail', function (e) {
-        console.log("ok");
+        console.log($(this).text());
         $(`.chooseVoid`).prop('disabled', false);
+    });
+    $(document).on(`click`,`.voidBackBtn`, function () {
+        $(`.inputVoid`).remove(); 
     });
 }

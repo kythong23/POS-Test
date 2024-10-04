@@ -67,6 +67,8 @@ fetch("../json/food.json")
                             </div>
                             <div class="fs-16 mr-b-4 fl_line">
                                 <div class="fl_g1 m-auto" id="foodPrice${dish[a].id}">${dish[a].price}</div>
+                            </div>
+                            <div class="fs-16 mr-b-4 fl_line">
                                 <div class="fl_line">
                                     <div class="fl_line" id="minusGroup${dish[a].id}"  style="display:none;">
                                         <button class="btnMinus" id="foodid${dish[a].id}" style="background-color: white;border-style: none;>
