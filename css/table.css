@@ -15,7 +15,7 @@
 }
 .loginlabel{
     display: inline-block;
-    min-width: 140px;
+    /* min-width: 140px; */
     font-size: 19px;
 }.containerlogin{
     border: 2px solid black;
@@ -41,4 +41,9 @@
 }
 .table>:not(caption)>*>* {
     background-color: unset !important;
+}
+@media screen and (max-width:770px) {
+    #hiddenMenu{
+        display: none !important;
+    }
 }

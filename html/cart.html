@@ -2059,10 +2059,10 @@
             <div style="min-height: calc(0px + 100vh); background: white; padding-top: 140px;">
                 <div class="wrap-menu " style="padding-bottom: 0px;">
                     <div class="row" style="background: rgb(255, 255, 255); margin-bottom: 16px;justify-content: end;">
-                        <div class="col-2" style="min-width: 165px;">
-                            <div class="position-fixed  start-0" id="hiddenMenu" role="dialog"
+                        <div id="hiddenMenu" class="col-3" style="min-width: 165px;">
+                            <div class="position-fixed  start-0" role="dialog"
                                 aria-describedby="scroll-dialog-description" aria-labelledby="scroll-dialog-title"
-                                style="padding-bottom: 20px;width: 268px;color: rgb(33, 43, 53)">
+                                style="padding-bottom: 20px;width: 25%;color: rgb(33, 43, 53)">
                                 <div style="margin-top: 20px;list-style-type: none;">
                                     <li class="row" style="justify-content: center;">
                                         <div class="col-1"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -2113,7 +2113,8 @@
                                             </svg></div>
                                     </li>
                                 </div>
-                                <div class="MuiDialogContent-root" style="padding: 0px 16px;">
+                                <div class="MuiDialogContent-root"
+                                    style="padding: 0px 16px;overflow: auto;max-height: 70vh;">
                                     <div style="margin-top: 12px;">
                                         <li id="categories-container" style="list-style-type: none">
                                         </li>
@@ -2121,12 +2122,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-8 col-lg-5">
                             <div id="food-container" class="row">
                                 <div class="noSearchResult"></div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-8 col-lg-4">
                             <div
                                 style="background-color: #f5f6f8;display: flex; justify-content: center;margin-right:10px;">
                                 <div class="fs-16"
